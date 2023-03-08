@@ -34,14 +34,14 @@
 }
 
 html, body {
+    height: 100%;
+    width: 100%;
     overflow: hidden;
 }
 
 body {
     background-color: var(--gray-100);
     color: var(--gray-700);
-    // height: 100%;
-    // width: 100%;
     position: relative;
 }
 

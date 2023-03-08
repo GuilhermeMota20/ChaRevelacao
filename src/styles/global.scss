@@ -33,10 +33,14 @@
     }
 }
 
+html, body {
+    overflow: hidden;
+}
+
 body {
     background-color: var(--gray-100);
     color: var(--gray-700);
-    overflow: hidden;
+    position: relative;
 }
 
 body, input, textarea, select {

@@ -10,14 +10,14 @@ function App() {
     <>
       <main className={styles.contentContainer}>
         <section className={styles.hero}>
-          <span>Olá, Seja bem vindo(a) ao...</span>
+          <span>Olá, Seja bem vindo(a)</span>
           <h1 className={styles.primaryText}>CHÁ DE BEBE <br /> <span>REVELAÇÃO</span>!</h1>
 
           <div>
             <p>Venha comemorar essa data conosco</p>
 
             <div className={styles.locationContainer}>
-              <div>
+              {/* <div> */}
                 <span>
                   <BsCalendarDateFill className={styles.icon} />
                   23/04/2023
@@ -26,7 +26,7 @@ function App() {
                   <IoTime className={styles.icon} />
                   Das 15:00 até as 20:00
                 </span>
-              </div>
+              {/* </div> */}
               <a href="https://goo.gl/maps/vsX4sk1CjNqq6Zgv5" target={'_blank'}>
                 <span>
                   <MdLocationOn className={styles.icon} />

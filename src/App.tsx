@@ -14,7 +14,7 @@ function App() {
           <h1 className={styles.primaryText}>CHÁ DE BEBE <br /> <span>REVELAÇÃO</span>!</h1>
 
           <div>
-            <p>Venha comemorar essa data conosco :)</p>
+            <p>Venha comemorar essa data conosco</p>
 
             <div className={styles.locationContainer}>
               <div>

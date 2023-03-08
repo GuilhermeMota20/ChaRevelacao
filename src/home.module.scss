@@ -143,7 +143,7 @@
         .hero {
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
             text-align: center;
 
@@ -154,14 +154,14 @@
         }
 
         &>.teste {
-            // position: absolute;
-            // right: -6rem;
-            // bottom: -2rem;
+            position: absolute;
+            right: -8rem;
+            bottom: -2.5rem;
 
-            // & .imgBabyChar {
-            //     width: 24rem;
-            // }
-            display: none !important;
+            & .imgBabyChar {
+                width: 24rem;
+            }
+            // display: none !important;
         }
     }
 }

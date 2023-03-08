@@ -138,7 +138,7 @@
     .contentContainer {
         display: flex;
         flex-direction: column;
-        margin-top: 3rem;
+        margin-top: 8rem;
         // justify-content: center;
 
         .hero {
@@ -157,7 +157,7 @@
         &>.teste {
             position: absolute;
             right: -8rem;
-            bottom: 0rem;
+            bottom: 8rem;
 
             & .imgBabyChar {
                 width: 24rem;

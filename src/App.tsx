@@ -24,13 +24,13 @@ function App() {
                 </span>
                 <span>
                   <IoTime className={styles.icon} />
-                  Das 15:00 até 20:00
+                  Das 15:00 até as 20:00
                 </span>
               </div>
               <a href="https://goo.gl/maps/vsX4sk1CjNqq6Zgv5" target={'_blank'}>
                 <span>
                   <MdLocationOn className={styles.icon} />
-                  Rua anum Dourado, Jardim Dom Jose, 260.
+                  Rua Anum-Dourado, Jardim Dom Jose, 260.
                 </span>
               </a>
             </div>

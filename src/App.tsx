@@ -20,7 +20,7 @@ function App() {
               <div>
                 <span>
                   <BsCalendarDateFill className={styles.icon} />
-                  Das 15:00 até 20:00
+                  23/04/2023
                 </span>
                 <span>
                   <IoTime className={styles.icon} />

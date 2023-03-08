@@ -156,11 +156,16 @@
 
         &>.teste {
             position: absolute;
-            right: -9rem;
+            right: -7rem;
             top: -2rem;
 
+            &::after {
+                height: 15rem;
+                width: 15rem;
+            }
+
             & .imgBabyChar {
-                width: 24rem;
+                width: 18rem;
             }
             // display: none !important;
         }

@@ -149,6 +149,7 @@
             align-items: center;
             text-align: center;
             width: 100%;
+            order: 1;
 
             h1.primaryText {
                 font-size: 3rem;
@@ -157,7 +158,14 @@
         }
 
         &>.teste {
-            display: none !important;
+            // display: none !important;
+            position: absolute;
+            top: 0;
+            right: 0;
+
+            & .imgBabyChar {
+                width: 10rem;
+            }
         }
     }
 }
